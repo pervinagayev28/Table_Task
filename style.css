@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+
+body {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #25BAB5;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    background-color: #25BAB5;
+    box-shadow: 1px 1px 20px blanchedalmond;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.h1-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* ------------------ table styling --------------- */
+
+table {
+    color: whitesmoke;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+
+thead {
+    background-color: #66D0CA;
+    height: 50px;
+}
+
+
+
+
+tbody tr {
+    border-bottom: 0.01px solid #66D0CD;
+    height: 40px;
+
+}
+
+.table-div {
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #66d6ca;
+}
+
+
+/* ------------ style actions --------- */
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+
+.thead:hover{
+    background-color: rgba(0, 0, 0, 1);
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+
+.h1-div:hover{
+    background-color: rgba(0, 0, 0, 1);
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    i{
+        color: white;
+    }
+}
+
+.h1-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.trash-btn{
+    background-color:transparent;
+    border: none;
+    
+}
+
+
+i{
+    font-size: 20px;
+}
