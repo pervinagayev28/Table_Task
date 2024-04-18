@@ -80,6 +80,7 @@ tbody tr {
     width: 100%;
 }
 
+
 tr:nth-child(even) {
     background-color: #66d6ca;
 }
@@ -97,7 +98,7 @@ tr:hover {
 }
 
 
-.thead:hover{
+.thead:hover {
     background-color: rgba(0, 0, 0, 1);
     transition: background-color 1s;
     -webkit-transition: background-color 1s;
@@ -106,31 +107,33 @@ tr:hover {
     -o-transition: background-color 1s;
 }
 
-.h1-div:hover{
+.h1-div:hover {
     background-color: rgba(0, 0, 0, 1);
     transition: background-color 1s;
     -webkit-transition: background-color 1s;
     -moz-transition: background-color 1s;
     -ms-transition: background-color 1s;
     -o-transition: background-color 1s;
-    i{
+
+    i {
         color: white;
     }
 }
 
-.h1-div{
+.h1-div {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
-.trash-btn{
-    background-color:transparent;
+
+.trash-btn,.add-btn{
+    background-color: transparent;
     border: none;
-    
+
 }
 
 
-i{
+i {
     font-size: 20px;
 }
